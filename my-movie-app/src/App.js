@@ -1,7 +1,12 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import RouterComponent from "./Route";
 
 function App() {
-  return <div className="App">hello react js</div>;
+  return (
+    <>
+      <RouterComponent />
+    </>
+  );
 }
 
 export default App;
