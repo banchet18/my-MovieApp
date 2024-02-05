@@ -1,4 +1,4 @@
-const Header = () => {
-  return <div>Header</div>;
+const HeaderComponent = () => {
+  return <div>HeaderComponent</div>;
 };
-export default Header;
+export default HeaderComponent;
