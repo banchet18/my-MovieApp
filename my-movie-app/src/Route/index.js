@@ -6,6 +6,8 @@ import SearchContainer from "../Container/Search";
 import TvSeriesContainer from "../Container/TvSeries";
 import DetailContainer from "../Container/Details";
 import ContactContainer from "../Container/Contact";
+import Header from "../Components/Header";
+import Footer from "../Components/Footer";
 
 const RouterComponent = () => {
   return (

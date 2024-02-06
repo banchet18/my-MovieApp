@@ -7,3 +7,5 @@ file structure
 create js file in container
 
 routing
+
+create component in component folder
