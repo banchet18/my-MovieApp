@@ -6,13 +6,14 @@ import SearchContainer from "../Container/Search";
 import TvSeriesContainer from "../Container/TvSeries";
 import DetailContainer from "../Container/Details";
 import ContactContainer from "../Container/Contact";
-import Header from "../Components/Header";
-import Footer from "../Components/Footer";
+import HeaderComponent from "../Components/Header";
+import FooterComponent from "../Components/Footer";
 
 const RouterComponent = () => {
   return (
     <>
       <BrowserRouter>
+        <HeaderComponent />
         <Routes>
           <Route path="/" element={<HomeContainer />} />
           <Route path="/about" element={<AboutContainer />} />
@@ -25,6 +26,7 @@ const RouterComponent = () => {
             element={<DetailContainer />}
           />
         </Routes>
+        <FooterComponent />
       </BrowserRouter>
     </>
   );
